@@ -16,7 +16,7 @@ DATABASE_NAME = os.environ.get("DATABASE_NAME", "Aaroha")
 DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Aaroha9:Aaroha999@cluster0.jqqzc5t.mongodb.net/?retryWrites=true&w=majority") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "5886772061")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
-ADMINS.append(Id Owned Id)
+ADMINS.append(5886772061)
 #  Optionnal variables
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001581944173")) 
 UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "TGshortener") # For Force Subscription
